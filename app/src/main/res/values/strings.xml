@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxJavaExample</string>
+    <string name="base_url">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/ws/</string>
+</resources>
