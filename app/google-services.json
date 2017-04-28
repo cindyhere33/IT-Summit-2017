@@ -1,0 +1,112 @@
+{
+  "project_info": {
+    "project_number": "1012110801937",
+    "firebase_url": "https://it-summit.firebaseio.com",
+    "project_id": "it-summit",
+    "storage_bucket": "it-summit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012110801937:android:237686cac2b9a644",
+        "android_client_info": {
+          "package_name": "edu.utdallas.itsummit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012110801937-3jm0q4hu39hqo5jh85l5hqprtb7l4u3r.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1012110801937-euqsokl5tlotpr0j5qhitrqj263h120i.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1012110801937-o84fchp3779pqvu44i59fte5rmfaqifn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsSZaeUPFeT-KBT6VXkTwSFtVUCsx1aiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75165146-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012110801937:android:17e8558c988e156c",
+        "android_client_info": {
+          "package_name": "edu.utdallas.itsummit2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012110801937-3glgoqr2p6jemh4j7m9jqikl30l7pt05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.utdallas.itsummit2017",
+            "certificate_hash": "00c2a7d46623c38eb6253962831971cdbc4525b5"
+          }
+        },
+        {
+          "client_id": "1012110801937-3jm0q4hu39hqo5jh85l5hqprtb7l4u3r.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1012110801937-euqsokl5tlotpr0j5qhitrqj263h120i.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1012110801937-o84fchp3779pqvu44i59fte5rmfaqifn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsSZaeUPFeT-KBT6VXkTwSFtVUCsx1aiY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012110801937-j9g3bv84lf0eb9n49vkfn79qe4ffh7k2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.utdallas.itsummit"
+              }
+            },
+            {
+              "client_id": "1012110801937-3jm0q4hu39hqo5jh85l5hqprtb7l4u3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:clickable="true"
+    android:layout_marginTop="@dimen/padding3">
+
+
+    <ImageView
+        android:id="@+id/ivStarScheduleList"
+        android:layout_width="@dimen/star_size"
+        android:layout_height="@dimen/star_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginTop="@dimen/padding4"
+        android:padding="@dimen/star_padding"
+        android:src="@drawable/star_empty" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/padding3"
+        android:layout_marginTop="@dimen/padding3"
+        android:layout_toLeftOf="@+id/ivArrowScheduleList"
+        android:layout_toRightOf="@+id/ivStarScheduleList"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding3">
+
+
+        <TextView
+            android:id="@+id/tvScheduleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inside Mobile Learning : User stories"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_m"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/tvScheduleTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:00AM to 11:00AM"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_s"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ivArrowScheduleList"
+        android:layout_width="@dimen/arrow_size"
+        android:layout_height="@dimen/arrow_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/padding4"
+        android:padding="@dimen/arrow_padding"
+        android:src="@drawable/ic_left_arrow" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginRight="@dimen/padding3"
+        android:background="@color/grey" />
+</RelativeLayout>

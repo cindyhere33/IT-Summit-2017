@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="Welcome" />
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedule" />
+
+        <item
+            android:id="@+id/nav_presenters"
+            android:icon="@drawable/ic_presenters"
+            android:title="Presenters" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="News" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Maps" />
+
+        <item
+            android:id="@+id/nav_exhibitor"
+            android:icon="@drawable/ic_exhibitors"
+            android:title="Exhibitors" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_support"
+            android:title="Support" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About IT Summit 2017" />
+
+        <!--        <item
+                    android:id="@+id/nav_more"
+                    android:icon="@drawable/more"
+                    android:title="More"/>-->
+
+    </group>
+
+
+</menu>

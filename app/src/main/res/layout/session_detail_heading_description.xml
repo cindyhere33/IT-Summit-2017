@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llSessionDetail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding2"
+        android:paddingTop="@dimen/padding2">
+
+        <TextView
+            android:id="@+id/tvTitleSession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding3"
+            android:text="Inside Mobile Learning : User Stories, App policies, and Governance"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_l"
+            android:layout_toLeftOf="@+id/star"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:padding="@dimen/star_padding"
+            android:layout_marginRight="@dimen/padding3"
+            android:src="@drawable/star_empty"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvLocationSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding4"
+        android:text="Wednesday, May 18, 2016\n9:00 am to 10:00 am; 1102"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/textSize_m"
+        android:layout_marginRight="@dimen/padding3"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvContentSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding1"
+        android:padding="@dimen/padding4"
+        android:text="This combined session will highlight mobile learning use cases and the corresponding challenges of maintaining and managing these mobile apps whithin a university govermanance and policies."
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_m"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding3"
+        android:background="@color/light_grey"
+        android:paddingLeft="@dimen/padding4"
+        android:text="Presenters"
+        android:paddingTop="@dimen/padding1"
+        android:paddingRight="@dimen/padding1"
+        android:paddingBottom="@dimen/padding1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_m" />
+
+
+</LinearLayout>

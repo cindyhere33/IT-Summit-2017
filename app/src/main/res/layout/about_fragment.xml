@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding2"
+    android:weightSum="5">
+
+
+    <ImageView
+        android:id="@+id/ivUTDAbout"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1.1"
+        android:src="@drawable/logo_color" />
+
+    <ImageView
+        android:id="@+id/ivEventAbout"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.2"
+        android:src="@drawable/itsummit" />
+
+    <TextView
+        android:id="@+id/tvVersionAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:gravity="center|top"
+        android:padding="@dimen/padding2"
+        android:text="Version 1.5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_s"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tvUTDAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:text="&#169; 2017, The University of Texas at Dallas"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_m"
+        android:textStyle="bold" />
+
+</LinearLayout>

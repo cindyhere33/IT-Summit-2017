@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    android:gravity="bottom"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding5"
+    android:paddingLeft="@dimen/padding3"
+    android:paddingRight="@dimen/padding3"
+    android:paddingTop="@dimen/padding6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding2"
+        android:text="Innovation and Technology Summit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize_l" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding2"
+        android:text="Office of Information Technology"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_m" />
+
+</LinearLayout>

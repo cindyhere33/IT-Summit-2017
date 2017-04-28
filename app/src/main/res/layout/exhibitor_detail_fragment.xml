@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding4">
+
+            <TextView
+                android:id="@+id/tvTitleExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSize_l"
+
+                />
+
+            <TextView
+                android:id="@+id/tvLocationExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/textSize_s"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tvContentExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/padding2"
+                android:layout_marginTop="@dimen/padding3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHeadingExhibitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:padding="@dimen/padding4"
+            android:text="Contact"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_m"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding4"
+            android:paddingRight="@dimen/padding3"
+            android:paddingTop="@dimen/padding2">
+
+            <TextView
+                android:id="@+id/tvNameExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:id="@+id/tvNameValueExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding4"
+            android:paddingRight="@dimen/padding3"
+            android:paddingTop="@dimen/padding2"
+
+            >
+
+            <TextView
+                android:id="@+id/tvEmailExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:id="@+id/tvEmailValueExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:padding="@dimen/padding2"
+                android:textColor="@color/cancel"
+                android:textSize="@dimen/textSize_m"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:paddingBottom="@dimen/padding2"
+            android:paddingLeft="@dimen/padding4"
+            android:paddingRight="@dimen/padding3"
+            android:paddingTop="@dimen/padding2"
+
+            >
+
+            <TextView
+                android:id="@+id/tvPhoneExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:id="@+id/tvPhoneValueExhibitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:padding="@dimen/padding2"
+                android:textColor="@color/cancel"
+                android:textSize="@dimen/textSize_m" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+

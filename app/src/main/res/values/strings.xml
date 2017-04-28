@@ -1,4 +1,51 @@
 <resources>
-    <string name="app_name">RxJavaExample</string>
-    <string name="base_url">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/ws/</string>
+    <string name="app_name">IT Summit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="font">fonts/HelveticaNeue Light.ttf</string>
+    <string name="font2">fonts/OpenSans-Bold.ttf</string>
+
+    <!--Web Service Urls-->
+    <string name="action_settings">Settings</string>
+    <string name="base_url1">http://iteventapp.x10host.com/oit/ws/</string>
+    <string name="image_base_url1">http://iteventapp.x10host.com/oit/images/</string>
+    <string name="BASE_URL1"> https://www.utdallas.edu/oit/mobileapps/ITEventApp/ws/</string>
+    <string name="IMAGE_BASE_URL1"> https://www.utdallas.edu/oit/mobileapps/ITEventApp/images/</string>
+    <string name="BASE_URL">https://wwwdev.utdallas.edu/oit/mobileapps/ITEventApp/ws/</string>
+    <string name="IMAGE_BASE_URL">https://wwwdev.utdallas.edu/oit/mobileapps/ITEventApp/images/</string>
+    <string name="BASE_URL3">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/ws/</string>
+    <string name="IMAGE_BASE_URL3">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/images/</string>
+
+
+    <!--Welcome-->
+    <string name="EVENT_GROUP_1">Event Description</string>
+    <string name="EVENT_GROUP_2">Event Details</string>
+    <string name="EVENT_GROUP_3">Sponsors</string>
+
+    <!--Session-->
+    <string name="PARCELABLE_SESSION">SessionParcelable</string>
+    <string name="KEY_FAV">isFav</string>
+    <string name="KEY_SESSION_DETAIL">Session Details</string>
+
+    <!--Presenter-->
+    <string name="PARCELABLE_PRESENTER">PresenterParcelable</string>
+    <string name="KEY_PRESENTER_DETAIL">Presenter Details</string>
+
+    <!--News-->
+    <string name="KEY_READ_NEWS">isNewsRead</string>
+    <string name="PARCELABLE_NEWS">NewsKey</string>
+    <string name="KEY_NEWS_DETAIL">Detail</string>
+
+    <!--Sponsor-->
+    <string name="PARCELABLE_SPONSOR">SponsorParcelable</string>
+
+    <!--Exhibitors-->
+    <string name="PARCELABLE_EXHIBITOR">ExhibitorParcelable</string>
+    <string name="KEY_EXHIBITOR_DETAIL">Exhibitor Details</string>
+
+    <!--Map-->
+    <string name="PARCELABLE_MAP">MapParcelable</string>
+    <string name="KEY_MAP_DETAIL">Map Details</string>
 </resources>
