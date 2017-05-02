@@ -35,7 +35,7 @@
 
      </RelativeLayout>-->
 
-    <edu.utdallas.itsummit2017.models.NetworkImageViewZoom
+    <edu.utdallas.itsummit.models.NetworkImageViewZoom
         android:id="@+id/ivMapImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

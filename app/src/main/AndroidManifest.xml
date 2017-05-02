@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.utdallas.itsummit2017">
+    package="edu.utdallas.itsummit">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -81,13 +81,13 @@
     </compatible-screens>
 
     <application
-        android:name=".ITSummitApplication"
+        android:name="edu.utdallas.itsummit.ITSummitApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyAppTheme">
-        <activity android:name=".activities.SplashActivity">
+        <activity android:name="edu.utdallas.itsummit.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -95,24 +95,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="edu.utdallas.itsummit.activities.MainActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <service
-            android:name=".notifications.MyFirebaseMessagingService"
+            android:name="edu.utdallas.itsummit.notifications.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name=".notifications.MyFirebaseInstanceIDService"
+            android:name="edu.utdallas.itsummit.notifications.MyFirebaseInstanceIDService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
 
     </application>
 
