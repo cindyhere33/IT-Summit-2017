@@ -109,6 +109,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/elvPresenters"
+            android:childIndicator="@null"
+            android:childDivider="@null"
+            android:divider="@null"
             android:groupIndicator="@null" />
 
     </LinearLayout>

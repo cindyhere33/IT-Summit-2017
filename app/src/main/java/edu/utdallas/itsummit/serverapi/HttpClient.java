@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class HttpClient {
 
-    public static final String BASE_URL = "https://wwwdev.utdallas.edu/oit/mobileapps/ITEventApp/ws/";
+    public static final String BASE_URL = "https://www.utdallas.edu/oit/mobileapps/ITEventApp/ws/";
     private static Retrofit retrofit = null;
 
 

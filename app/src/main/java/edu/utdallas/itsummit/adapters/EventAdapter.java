@@ -1,10 +1,12 @@
 package edu.utdallas.itsummit.adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -94,7 +96,12 @@ public class EventAdapter extends BaseExpandableListAdapter {
         tvHeading.setText(groupHeadings.get(groupPosition - 1));
         if (groupHeadings.get(groupPosition - 1).equalsIgnoreCase("Sponsors")) {
             convertView.setOnClickListener(v -> ((MainActivity) context).getSupportFragmentManager().beginTransaction().add(R.id.frame, SponsorFragment.newInstance(), "Sponsors").addToBackStack("Sponsors").commit());
-        }
+        } else
+            convertView.setOnClickListener(view -> {
+                ExpandableListView elv = (ExpandableListView) parent;
+                if (elv.isGroupExpanded(groupPosition)) elv.collapseGroup(groupPosition);
+                else elv.expandGroup(groupPosition);
+            });
         return convertView;
     }
 
@@ -105,6 +112,12 @@ public class EventAdapter extends BaseExpandableListAdapter {
         if (groupPosition > 0)
             tvContent.setText(getChild(groupPosition - 1, 0));
         return convertView;
+    }
+
+    @Override
+    public void onGroupExpanded(int groupPosition) {
+        super.onGroupExpanded(groupPosition);
+        Log.d(TAG, "Attempt to expand " + groupPosition);
     }
 
     @Override

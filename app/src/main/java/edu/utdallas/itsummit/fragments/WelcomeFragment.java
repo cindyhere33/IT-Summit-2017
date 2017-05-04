@@ -27,14 +27,26 @@ public class WelcomeFragment extends Fragment {
         return new WelcomeFragment();
     }
 
+    static EventAdapter adapter;
+    static Events mainEvent;
+    private final String TAG = getClass().getSimpleName();
+
+    public static void updateEvents(Events event) {
+        if (event != null) {
+            mainEvent = event;
+            adapter.notifyDataSetChanged();
+        }
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.event, container, false);
         ExpandableListView elv = (ExpandableListView) view.findViewById(R.id.elvEvents);
-        Events event = (Events) ((MainActivity) getActivity()).getDataGetter().readFromRealm(DataGetter.DataType.EVENT);
-        if (event != null) {
-            elv.setAdapter(new EventAdapter(getActivity(), getGroupHeadings(), event.getEvent()));
+        mainEvent = (Events) ((MainActivity) getActivity()).getDataGetter().readFromRealm(DataGetter.DataType.EVENT);
+        if (mainEvent != null) {
+            adapter = new EventAdapter(getActivity(), getGroupHeadings(), mainEvent.getEvent());
+            elv.setAdapter(adapter);
         }
         return view;
     }

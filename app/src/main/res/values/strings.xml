@@ -13,8 +13,8 @@
     <string name="image_base_url1">http://iteventapp.x10host.com/oit/images/</string>
     <string name="BASE_URL1"> https://www.utdallas.edu/oit/mobileapps/ITEventApp/ws/</string>
     <string name="IMAGE_BASE_URL1"> https://www.utdallas.edu/oit/mobileapps/ITEventApp/images/</string>
-    <string name="BASE_URL">https://wwwdev.utdallas.edu/oit/mobileapps/ITEventApp/ws/</string>
-    <string name="IMAGE_BASE_URL">https://wwwdev.utdallas.edu/oit/mobileapps/ITEventApp/images/</string>
+    <string name="BASE_URL">https://www.utdallas.edu/oit/mobileapps/ITEventApp/ws/</string>
+    <string name="IMAGE_BASE_URL">https://www.utdallas.edu/oit/mobileapps/ITEventApp/images/</string>
     <string name="BASE_URL3">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/ws/</string>
     <string name="IMAGE_BASE_URL3">https://www.utdallas.edu/oit/mobileapps/TXBestEvent/images/</string>
 

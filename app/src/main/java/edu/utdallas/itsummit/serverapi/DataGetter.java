@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 
+import edu.utdallas.itsummit.fragments.WelcomeFragment;
 import edu.utdallas.itsummit.models.Buildings;
 import edu.utdallas.itsummit.models.Configuration;
 import edu.utdallas.itsummit.models.Events;
@@ -185,6 +186,14 @@ public class DataGetter {
         return response;
     }
 
+    //Write Events into database and return the objects
+    private Events writeToRealm(Events response) {
+        Realm realm = Realm.getDefaultInstance();
+        realm.executeTransactionAsync(transaction -> transaction.copyToRealmOrUpdate(response));
+        realm.close();
+        return response;
+    }
+
 
     //Generic method to write the data objects into database
     private <T extends RealmObject> String writeToRealm(T response) {
@@ -262,6 +271,13 @@ public class DataGetter {
         disposables.add(observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
                 .map(this::writeToRealm)
                 .subscribe(this::updateNavDrawerMenu, this::processError));
+    }
+
+    //Method to download Exhibitors
+    private void getEventData(Observable<Events> observable) {
+        disposables.add(observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
+                .map(this::writeToRealm)
+                .subscribe(events -> WelcomeFragment.updateEvents(events), this::processError));
     }
 
     //Method to start downloading the config

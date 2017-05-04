@@ -33,6 +33,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:background="@color/white"
         app:headerLayout="@layout/header_navdrawer"
         app:menu="@menu/navdrawer"
         app:theme="@style/MyNavigationDrawer">

@@ -99,6 +99,9 @@
             android:id="@+id/elvSessions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:childDivider="@null"
+            android:divider="@null"
+            android:childIndicator="@null"
             android:groupIndicator="@null" />
 
 

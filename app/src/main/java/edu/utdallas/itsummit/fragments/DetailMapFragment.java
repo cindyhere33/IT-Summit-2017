@@ -20,7 +20,7 @@ public class DetailMapFragment extends Fragment {
 
 
     private final String TAG = getClass().getSimpleName();
-    map map = new map();
+    map map;
 
     public static DetailMapFragment newInstance(map map) {
         DetailMapFragment fragment = new DetailMapFragment();
@@ -32,7 +32,7 @@ public class DetailMapFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.map_detail_fragment, container, false);
-        if (savedInstanceState != null) {
+        if (savedInstanceState != null && map == null) {
             map = savedInstanceState.getParcelable(getActivity().getResources().getString(R.string.PARCELABLE_MAP));
         }
         NetworkImageViewZoom iv = (NetworkImageViewZoom) view.findViewById(R.id.ivMapImage);
@@ -49,5 +49,13 @@ public class DetailMapFragment extends Fragment {
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(getActivity().getResources().getString(R.string.PARCELABLE_MAP), map);
+    }
+
+    @Override
+    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if (savedInstanceState != null && map == null) {
+            map = savedInstanceState.getParcelable(getActivity().getResources().getString(R.string.PARCELABLE_MAP));
+        }
     }
 }
