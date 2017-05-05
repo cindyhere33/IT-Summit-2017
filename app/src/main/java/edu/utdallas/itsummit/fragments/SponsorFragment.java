@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -46,6 +47,7 @@ public class SponsorFragment extends Fragment {
         this.sponsorList.clear();
         this.sponsorList.addAll(((Sponsors) ((MainActivity) getActivity()).getDataGetter().readFromRealm(DataGetter.DataType.SPONSOR)).getSponsors());
         sponsorLevels.addAll(((SponsorLevels) ((MainActivity) getActivity()).getDataGetter().readFromRealm(DataGetter.DataType.SPONSORLEVEL)).getSponsorLevels());
+        Collections.sort(sponsorLevels);
         sponsorMap = createMap(sponsorLevels, sponsorList);
         if (sponsorList.size() > 0 && elvSponsors != null) elvSponsors.setEnabled(true);
         if (adapter != null) adapter.notifyDataSetChanged();
@@ -59,10 +61,20 @@ public class SponsorFragment extends Fragment {
                     list.add(sponsor);
                 }
             }
+            Collections.sort(list);
             sponsorMap.put(level.getLevel(), list);
         }
         return sponsorMap;
     }
+
+    private List<String> getSponsorLevels(){
+        List<String> levels = new ArrayList<>();
+        for(sponsorLevel level: sponsorLevels){
+            levels.add(level.getLevel());
+        }
+        return levels;
+    }
+
 
     @Nullable
     @Override
@@ -71,7 +83,7 @@ public class SponsorFragment extends Fragment {
         ((MainActivity) getActivity()).setHeading("Sponsors");
         elvSponsors = (ExpandableListView) v.findViewById(R.id.elvSponsors);
         if (adapter == null)
-            adapter = new SponsorAdapter(getActivity(), new ArrayList<>(sponsorMap.keySet()), sponsorMap);
+            adapter = new SponsorAdapter(getActivity(), getSponsorLevels(), sponsorMap);
         else adapter.notifyDataSetChanged();
         elvSponsors.setAdapter(adapter);
         for (int i = 0; i < categories.size(); i++) {

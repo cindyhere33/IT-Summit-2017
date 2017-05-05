@@ -142,6 +142,7 @@ public class PresenterFragment extends Fragment {
         Collections.sort(presenterList);
         if (adapter == null)
             adapter = new PresenterAdapter(getActivity(), presenterList, names);
+        else adapter.notifyDataSetChanged();
         elv.setAdapter(adapter);
         elv.setSelectionFromTop(index, top);
         if (currentTab == null) {
@@ -284,12 +285,6 @@ public class PresenterFragment extends Fragment {
         top = (v == null) ? 0 : (v.getTop() - elv.getPaddingTop());
     }
 
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        // activity = null;
-    }
 
     @Override
     public void onDestroyView() {

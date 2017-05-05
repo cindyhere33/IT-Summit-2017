@@ -2,6 +2,8 @@ package edu.utdallas.itsummit.models.jsonmodels;
 
 import android.support.annotation.NonNull;
 
+import java.util.Comparator;
+
 import io.realm.RealmObject;
 
 /**
@@ -49,4 +51,5 @@ public class sponsorLevel extends RealmObject implements Comparable<sponsorLevel
             return -1;
         return 0;
     }
+
 }

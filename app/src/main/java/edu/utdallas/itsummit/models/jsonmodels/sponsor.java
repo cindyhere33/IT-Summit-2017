@@ -2,6 +2,7 @@ package edu.utdallas.itsummit.models.jsonmodels;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 
 import io.realm.RealmObject;
 
@@ -9,7 +10,7 @@ import io.realm.RealmObject;
  * Created by sxk159231 on 4/7/2017.
  */
 
-public class sponsor extends RealmObject implements Parcelable {
+public class sponsor extends RealmObject implements Parcelable, Comparable<sponsor> {
 
     private String Name = "";
     private String Description = "";
@@ -114,4 +115,9 @@ public class sponsor extends RealmObject implements Parcelable {
             return new sponsor[size];
         }
     };
+
+    @Override
+    public int compareTo(@NonNull sponsor o) {
+        return this.getName().compareTo(o.getName());
+    }
 }

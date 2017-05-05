@@ -88,7 +88,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyAppTheme">
         <activity android:name="edu.utdallas.itsummit.activities.SplashActivity"
-
+            android:screenOrientation="portrait"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

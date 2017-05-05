@@ -232,7 +232,7 @@ public class SessionFragment extends Fragment {
     private void search(String s) {
         searchResults.clear();
         for (session session : allSessionsList) {
-            if (session.getTitle().toLowerCase().startsWith(s.toLowerCase())) {
+            if (session.getTitle().toLowerCase().contains(s.toLowerCase())) {
                 searchResults.add(session);
             }
         }

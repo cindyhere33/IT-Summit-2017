@@ -13,6 +13,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -31,7 +32,7 @@ public class SponsorAdapter extends BaseExpandableListAdapter {
 
     private List<String> categories = new ArrayList<>();
     private HashMap<String, List<sponsor>> sponsors = new HashMap<>();
-    Context context;
+    private Context context;
     private LayoutInflater inflater;
     private ImageLoader loader;
     private final String TAG = getClass().getSimpleName();
