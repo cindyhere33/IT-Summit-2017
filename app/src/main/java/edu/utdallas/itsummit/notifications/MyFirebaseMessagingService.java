@@ -24,8 +24,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Notification notification = new NotificationCompat.Builder(this)
                 .setContentTitle(remoteMessage.getNotification().getTitle())
                 .setContentText(remoteMessage.getNotification().getBody())
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher))
+                .setSmallIcon(R.drawable.ic_notification)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notification))
                 .build();
         NotificationManagerCompat manager = NotificationManagerCompat.from(getApplicationContext());
         manager.notify(0, notification);
