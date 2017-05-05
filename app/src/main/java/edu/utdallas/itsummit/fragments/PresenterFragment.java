@@ -24,6 +24,7 @@ import java.util.List;
 import edu.utdallas.itsummit.R;
 import edu.utdallas.itsummit.activities.MainActivity;
 import edu.utdallas.itsummit.adapters.PresenterAdapter;
+import edu.utdallas.itsummit.models.PresenterComparable;
 import edu.utdallas.itsummit.models.Presenters;
 import edu.utdallas.itsummit.models.jsonmodels.presenter;
 import edu.utdallas.itsummit.serverapi.DataGetter;
@@ -225,6 +226,9 @@ public class PresenterFragment extends Fragment {
                         presenterList.add(a);
                     }
                 }
+            }
+            for(Character key : names.keySet()){
+                Collections.sort(names.get(key), PresenterComparable.getComparator(currentTab.name()));
             }
         }
         Collections.sort(presenterList);
