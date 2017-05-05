@@ -3,6 +3,8 @@ package edu.utdallas.itsummit;
 import android.app.Application;
 import android.content.Context;
 
+import com.google.firebase.messaging.FirebaseMessaging;
+
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
@@ -28,5 +30,11 @@ public class ITSummitApplication extends Application {
                 .deleteRealmIfMigrationNeeded()
                 .build();
         Realm.setDefaultConfiguration(config);
+
+        try {
+            FirebaseMessaging.getInstance().subscribeToTopic("news");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
