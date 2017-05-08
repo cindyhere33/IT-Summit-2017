@@ -1,7 +1,9 @@
 package edu.utdallas.itsummit.utils;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -62,6 +64,14 @@ public class Utils {
 
     public static boolean isFavorite(SharedPreferences sharedPrefs, String favKey, String sessId) {
         return (sharedPrefs.getBoolean(favKey + sessId, false));
+    }
+
+    public static void showNetworkConnectionError(Context context) {
+        AlertDialog dialog = new AlertDialog.Builder(context).create();
+        dialog.setTitle("Network Connection Error");
+        dialog.setMessage("Please check your connection to the network.");
+        dialog.setButton(DialogInterface.BUTTON_POSITIVE, "OK", (dialogInterface, i) -> dialog.dismiss());
+        dialog.show();
     }
 
 

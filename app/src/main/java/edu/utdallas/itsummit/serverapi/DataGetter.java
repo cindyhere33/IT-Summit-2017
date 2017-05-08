@@ -157,6 +157,11 @@ public class DataGetter {
         return null;
     }
 
+    //Returns whether data has been stored in database or not
+    public boolean hasDataInRealm() {
+        return (readFromRealm(DataType.CONFIG) != null && readFromRealm(DataType.EVENT) != null && readFromRealm(DataType.SESSION) != null && readFromRealm(DataType.PRESENTER) != null && readFromRealm(DataType.MAP) != null);
+    }
+
 
     //Modify the original schedule objects to put date and time in a usable format and store in database
     private String writeToRealm(Schedule response) {

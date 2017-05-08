@@ -67,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
         navView = (NavigationView) findViewById(R.id.nav_view);
         if (dataGetter == null) dataGetter = new DataGetter(navView);
         dataGetter.downloadData();
-        navView.setNavigationItemSelectedListener(navItemSelectedListener);
+        if (dataGetter.hasDataInRealm())
+            navView.setNavigationItemSelectedListener(navItemSelectedListener);
+        else {
+            Utils.showNetworkConnectionError(this);
+        }
         getSupportFragmentManager().addOnBackStackChangedListener(backStackChangedListener);
 
         //Set default fragment as the Welcome Fragment

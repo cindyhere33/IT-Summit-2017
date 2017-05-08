@@ -85,9 +85,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyAppTheme">
-        <activity android:name="edu.utdallas.itsummit.activities.SplashActivity"
-            android:screenOrientation="portrait"
-            >
+        <activity
+            android:name="edu.utdallas.itsummit.activities.SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -96,22 +96,22 @@
         </activity>
         <activity
             android:name="edu.utdallas.itsummit.activities.MainActivity"
-            android:theme="@style/MyAppTheme"
             android:configChanges="orientation|keyboard|keyboardHidden"
+            android:theme="@style/MyAppTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <service
             android:name="edu.utdallas.itsummit.notifications.MyFirebaseMessagingService"
-            android:exported="false"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
             android:name="edu.utdallas.itsummit.notifications.MyFirebaseInstanceIDService"
-            android:exported="false"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
