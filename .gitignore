@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+/app/Keystore/
+/app/app-release.apk

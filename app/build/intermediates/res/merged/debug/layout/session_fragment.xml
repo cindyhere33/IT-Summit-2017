@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding3"
+        android:paddingBottom="@dimen/padding3"
+        android:paddingLeft="@dimen/padding5"
+        android:paddingRight="@dimen/padding5"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/tab_left_orange"
+            android:gravity="center"
+            android:padding="@dimen/padding2"
+            android:text="All"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_s" />
+
+        <TextView
+            android:id="@+id/tvFav"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/tab_right_white"
+            android:gravity="center"
+            android:padding="@dimen/padding2"
+            android:text="Favorites"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/textSize_s" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llTabs"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding3"
+            android:weightSum="6">
+
+            <AutoCompleteTextView
+                android:id="@+id/actvSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/search_box"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawablePadding="@dimen/padding2"
+                android:gravity="left"
+                android:hint="Search"
+                android:imeOptions="flagNoFullscreen"
+                android:paddingBottom="@dimen/padding2"
+                android:paddingLeft="@dimen/padding2"
+                android:paddingRight="@dimen/padding2"
+                android:paddingTop="@dimen/padding2"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/cancel"
+                android:textSize="@dimen/textSize_m"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+
+
+        <ExpandableListView
+            android:id="@+id/elvSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:childDivider="@null"
+            android:divider="@null"
+            android:childIndicator="@null"
+            android:groupIndicator="@null" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

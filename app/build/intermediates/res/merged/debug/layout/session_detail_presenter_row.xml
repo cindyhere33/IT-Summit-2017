@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding3"
+    android:clickable="true"
+    android:paddingRight="@dimen/padding3"
+    android:paddingTop="@dimen/padding2">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/ivPresenterImage"
+        android:layout_width="@dimen/photo_size"
+        android:layout_height="@dimen/photo_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding1"
+        android:src="@drawable/ic_nopic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivPresenterImage"
+        android:layout_toLeftOf="@+id/ivMoreAboutPresenter"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding2">
+
+        <TextView
+            android:id="@+id/tvNamePresenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_m"
+            android:singleLine="true"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_below="@+id/tvNamePresenter"
+            android:id="@+id/tvDetailPresenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/textSize_s"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/ivMoreAboutPresenter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding2"
+        android:src="@drawable/ic_left_arrow" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/padding2"
+        android:layout_marginRight="@dimen/padding2"
+        android:id="@+id/line"
+        android:layout_marginTop="@dimen/padding3"
+        android:background="@color/grey" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ExpandableListView
+        android:id="@+id/elvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding3"
+        android:layout_marginRight="@dimen/padding3"
+        android:layout_marginTop="@dimen/padding3"
+        android:divider="@null"
+        android:groupIndicator="@null"
+        android:childIndicator="@null" />
+
+
+</LinearLayout>
+
+

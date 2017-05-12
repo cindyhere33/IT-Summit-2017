@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Sindhura\\AndroidStudioProjects\\itsummit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Sindhura\\.android\\build-cache\\2d077c7c7126d66b100d72f6959e3b6560254f43\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sindhura\\AndroidStudioProjects\\itsummit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Sindhura\\.android\\build-cache\\2d077c7c7126d66b100d72f6959e3b6560254f43\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sindhura\\AndroidStudioProjects\\itsummit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Sindhura\\.android\\build-cache\\2d077c7c7126d66b100d72f6959e3b6560254f43\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sindhura\\AndroidStudioProjects\\itsummit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Sindhura\\.android\\build-cache\\2d077c7c7126d66b100d72f6959e3b6560254f43\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

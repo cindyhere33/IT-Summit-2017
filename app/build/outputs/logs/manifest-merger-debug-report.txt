@@ -1,0 +1,373 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:2:1-129:12
+	package
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:6:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:7:22-76
+compatible-screens
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:10:5-79:26
+screen#small+ldpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:12:9-14:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:13:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:14:13-39
+screen#small+mdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:16:9-18:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:17:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:18:13-39
+screen#small+hdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:20:9-22:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:21:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:22:13-39
+screen#small+xhdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:24:9-26:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:25:13-42
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:26:13-39
+screen#small+420
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:28:9-30:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:29:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:30:13-39
+screen#small+480
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:32:9-34:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:33:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:34:13-39
+screen#small+560
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:36:9-38:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:37:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:38:13-39
+screen#small+640
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:40:9-42:42
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:41:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:42:13-39
+screen#normal+ldpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:47:9-49:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:48:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:49:13-40
+screen#normal+mdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:51:9-53:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:52:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:53:13-40
+screen#normal+hdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:55:9-57:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:56:13-41
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:57:13-40
+screen#normal+xhdpi
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:59:9-61:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:60:13-42
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:61:13-40
+screen#normal+420
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:63:9-65:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:64:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:65:13-40
+screen#normal+480
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:67:9-69:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:68:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:69:13-40
+screen#normal+560
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:71:9-73:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:72:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:73:13-40
+screen#normal+640
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:75:9-77:43
+	android:screenDensity
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:76:13-40
+	android:screenSize
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:77:13-40
+application
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:81:5-127:19
+MERGED from [com.android.support:design:25.0.1] C:\Users\Sindhura\.android\build-cache\38cb62b5723ce37b23131e26bf0a621dd6ad04e9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Sindhura\.android\build-cache\2d077c7c7126d66b100d72f6959e3b6560254f43\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Sindhura\.android\build-cache\8a2611d84476a748431e98b0d3a18d99288396e5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Sindhura\.android\build-cache\531f8f04c68624e8704072f50ee2eed7534ff405\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Sindhura\.android\build-cache\1eb27600e2735cd4dfd3530f497c211cea09897d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Sindhura\.android\build-cache\a14fb04766ec3e6fc9bdb5d3ba31b363d1213d71\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Sindhura\.android\build-cache\4b34ea1683c9562257d1f68c751ba9c930fbf678\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Sindhura\.android\build-cache\50eb016b53971d84973f10588c31049637409dc5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Sindhura\.android\build-cache\75ffbf3148a60be9ab3240635801b2aaddb5ab55\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Sindhura\.android\build-cache\319e6d68b31e69f0077099bfe2b1751e592dc914\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Sindhura\.android\build-cache\179041a9176fa7322d5d0dc5c3c8bb59ded94a5f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Sindhura\.android\build-cache\1402ee7ea747e9a4f3d022df8008fdd746f68619\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Sindhura\.android\build-cache\100dc7494901d139c4c24f62d051609044a23fe4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Sindhura\.android\build-cache\0bbf0a3d77ee876b5a45158f885c00797cf00fe4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Sindhura\.android\build-cache\34a9cca668337d60188769efba98cfcd96b917fc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Sindhura\.android\build-cache\6988dba2184302ad7509149a66f9f57a443d7648\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:85:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:86:9-35
+	android:allowBackup
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:83:9-36
+	android:icon
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:84:9-43
+	android:theme
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:87:9-42
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:82:9-65
+activity#edu.utdallas.itsummit.activities.SplashActivity
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:88:9-96:20
+	android:screenOrientation
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:89:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:91:13-95:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:92:17-69
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:92:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:94:17-77
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:94:27-74
+activity#edu.utdallas.itsummit.activities.MainActivity
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:97:9-101:70
+	android:windowSoftInputMode
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:101:13-67
+	android:configChanges
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:99:13-72
+	android:theme
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:100:13-46
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:98:13-73
+service#edu.utdallas.itsummit.notifications.MyFirebaseMessagingService
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:103:9-110:19
+	android:enabled
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:105:13-35
+	android:exported
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:104:13-90
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:107:13-109:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:108:17-78
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:108:25-75
+service#edu.utdallas.itsummit.notifications.MyFirebaseInstanceIDService
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:111:9-118:19
+	android:enabled
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:113:13-35
+	android:exported
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:112:13-91
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:115:13-117:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:116:17-80
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:116:25-77
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:120:9-122:60
+	android:resource
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:122:13-57
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:121:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:123:9-125:53
+	android:resource
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:125:13-50
+	android:name
+		ADDED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml:124:13-84
+uses-sdk
+INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.0.1] C:\Users\Sindhura\.android\build-cache\38cb62b5723ce37b23131e26bf0a621dd6ad04e9\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Sindhura\.android\build-cache\2d077c7c7126d66b100d72f6959e3b6560254f43\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Sindhura\.android\build-cache\8a2611d84476a748431e98b0d3a18d99288396e5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Sindhura\.android\build-cache\531f8f04c68624e8704072f50ee2eed7534ff405\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Sindhura\.android\build-cache\1eb27600e2735cd4dfd3530f497c211cea09897d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Sindhura\.android\build-cache\92d8c5bad23942f26e5e7195c4b50b8cbde59f3c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Sindhura\.android\build-cache\a14fb04766ec3e6fc9bdb5d3ba31b363d1213d71\output\AndroidManifest.xml:7:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Sindhura\.android\build-cache\8aadbe0bd2856ce50654fa4887da9cc4e37b1312\output\AndroidManifest.xml:19:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Sindhura\.android\build-cache\4b34ea1683c9562257d1f68c751ba9c930fbf678\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Sindhura\.android\build-cache\50eb016b53971d84973f10588c31049637409dc5\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Sindhura\.android\build-cache\75ffbf3148a60be9ab3240635801b2aaddb5ab55\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Sindhura\.android\build-cache\319e6d68b31e69f0077099bfe2b1751e592dc914\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Sindhura\.android\build-cache\179041a9176fa7322d5d0dc5c3c8bb59ded94a5f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Sindhura\.android\build-cache\1402ee7ea747e9a4f3d022df8008fdd746f68619\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Sindhura\.android\build-cache\100dc7494901d139c4c24f62d051609044a23fe4\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Sindhura\.android\build-cache\0bbf0a3d77ee876b5a45158f885c00797cf00fe4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Sindhura\.android\build-cache\34a9cca668337d60188769efba98cfcd96b917fc\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Sindhura\.android\build-cache\6988dba2184302ad7509149a66f9f57a443d7648\output\AndroidManifest.xml:21:5-23:58
+MERGED from [io.realm:realm-android-library:3.0.0] C:\Users\Sindhura\.android\build-cache\13afb85e66489596bbf84ad3e08e8a309912d0d5\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Sindhura\.android\build-cache\47730056506230f6477e2ab2a0f625bc3c6118e2\output\AndroidManifest.xml:7:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\Sindhura\.android\build-cache\38cb62b5723ce37b23131e26bf0a621dd6ad04e9\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sindhura\AndroidStudioProjects\itsummit\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Sindhura\.android\build-cache\4b34ea1683c9562257d1f68c751ba9c930fbf678\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Sindhura\.android\build-cache\4b34ea1683c9562257d1f68c751ba9c930fbf678\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Sindhura\.android\build-cache\4b34ea1683c9562257d1f68c751ba9c930fbf678\output\AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Sindhura\.android\build-cache\23efada8dcf78ffa6377ab9b53c93cf58989c468\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Sindhura\.android\build-cache\643d968c87a34694cebea156ae1d454c32be1ffd\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Sindhura\.android\build-cache\dc7fa4cdb98b28af68c08d30f07887f5071a2a10\output\AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Sindhura\.android\build-cache\38bf18e5f5eb07d972204597c197b1919fd3f6b0\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Sindhura\.android\build-cache\319e6d68b31e69f0077099bfe2b1751e592dc914\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Sindhura\.android\build-cache\319e6d68b31e69f0077099bfe2b1751e592dc914\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Sindhura\.android\build-cache\319e6d68b31e69f0077099bfe2b1751e592dc914\output\AndroidManifest.xml:20:20-65

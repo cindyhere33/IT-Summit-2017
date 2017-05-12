@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding3"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingBottom="@dimen/padding4"
+    android:paddingTop="@dimen/padding4">
+
+    <ImageView
+        android:id="@+id/ivLogoEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/itsummit" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="@dimen/padding3">
+
+        <TextView
+            android:id="@+id/tvDateEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May 16, 2016"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_s" />
+
+        <TextView
+            android:id="@+id/tvLocationEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Naveen Jindal School of Management\n800 West Campbell Rd., JSOM\nRichardson, TX 75080-3021"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSize_s" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
